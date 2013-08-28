@@ -1,8 +1,9 @@
-Linux Live Kit
+Rexos Linux Live Kit
 ==============
 
-Use this set of scripts to turn your existing preinstalled Linux
-distribution into a Live Kit (formely known as Live CD).
+Use this set of scripts to turn your Rexos preinstalled into a
+Live System.
+
 Make sure to extract and use it on a posix-compatible filesystem,
 since it creates some (sym)links and such.
 
@@ -33,3 +34,4 @@ since it creates some (sym)links and such.
 
 
 Author: Tomas M. <http://www.linux-live.org>
+Modified by: Erick M.C. <http://rexos-es.blogspot.mx>
