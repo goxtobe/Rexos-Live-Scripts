@@ -4,20 +4,15 @@
 #
 # Lines containing # are ignored
 #
-Thank you for using mylinux!
-Steps to make it bootable from your USB device:
+Gracias por usar mylinux!
+Pasos para arrancar desde su dispositivo USB:
 
-1) Extract the contents of ZIP archive to your USB drive.
-   If you are using Windows, you will get for example E:\mylinux\
-   You probably already did this, just make sure you extracted
-   the archive to your USB drive and not to your local harddisk.
+1) Extraer el contenido del archivo ZIP en su dispositivo USB.
+   
+2) Ahora navegue al disrectorio /mylinux/boot/ en su dispositivo.
 
-2) Now navigate to directory /mylinux/boot/ on your USB drive.
-   In Windows, it will be E:\mylinux\boot\ for example.
-   Use explorer or any other file manager for this task.
+3) Localizar los archivos bootinst.sh y ejecutarlo. Este archivo.
+   Configurara su dispositivo para el arranque.
 
-3) While you're in the boot directory, locate file bootinst.bat
-   Run it by doubleclicking it. It will setup your USB to boot.
-
--- That's it. Your USB device is now ready to boot mylinux.
--- You can safely delete this file (mylinux.txt), it's not needed.
+-- Eso es. Su dispositivo USB esta ahora listo para arrancar Rexos.
+-- Usted puede remover de manera segura este archivo, no es necesario.

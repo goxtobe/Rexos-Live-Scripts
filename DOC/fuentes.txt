@@ -1,0 +1,2 @@
+El codigo fuente de los binarios precompilados (initramfs/static/*) puede ser encontrado en
+http://ftp.slax.org/Slax-7.x-development/sources/Slax-7.0-sources/busybox-and-ntfs3g/

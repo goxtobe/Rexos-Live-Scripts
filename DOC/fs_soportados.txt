@@ -1,0 +1,13 @@
+Sistemas de Archivos Soportados
+---------------------
+La distribución Rexos puede ser instalada en los siguientes
+sistemas de archivos:
+
+* iso9660 (CD) ..... usando isolinux
+* FAT32 (vfat) ..... usando syslinux or extlinux
+* ntfs ............. usandos yslinux or extlinux
+* ext2/3/4,btrfs ... usando extlinux
+* any other fs ..... usando lilo
+
+La mayoria de los usuarios instalaran en FAT32 para
+compatibilidad con otros Sistemas operativos.
