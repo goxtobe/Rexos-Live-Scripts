@@ -21,22 +21,22 @@ con posix, ya que se crearan enlaces y demas.
 * Asegurese de que su kernel esta en /boot/vmlinuz
 
 * Usted quizas deseara remplazar los graficos de arranque en el directorio
-  ./bootfiles/bootlogo.png y reorganizar isolinux.cfg a sus necesidades.
+  ./bootfiles/bootlogo.png  y  reorganizar isolinux.cfg  a sus necesidades.
 
-* Si usted planea arrancar Rexos desde un CD, necesitara recompilar syslinux.bin
-  de otra manera no sera capaz de arrancar Rexos. Hay un Scripts para usted el
-  cual se encargara de todo. Simplemente vaya a el directorio ./tools/ y corra
-  isolinux.bin.update ... esto actualizara ./bootfiles/isolinux.bin de forma
-  automatica descargando el codigo fuente de isolinux, parchandolo con su actual
-  LIVEKITNAME y recompilandolo. Este paso no es necesario si usted desea arrancar
-  desde USB.
+* Si usted planea arrancar Rexos desde un CD, necesitara recompilar 
+  syslinux.bin de otra manera no sera capaz de  arrancar Rexos. Hay
+  un  Scripts para usted  el cual se encargara de todo. Simplemente 
+  vaya a el directorio ./tools/ y corra isolinux.bin.update ...esto 
+  actualizara ./bootfiles/isolinux.bin descargando el codigo fuente 
+  de isolinux, parchandolo con su actual LIVEKITNAME y recompilando. 
+  Este paso no es necesario si usted desea arrancar desde USB.
 
-* Si usted tiene tmpfs montado en /tmp, asegurese de tener sugficiente memoria RAM
-  ya que los Scripts almacenaran datos allí. Si usted tiene poca RAM, asegurese de
-  que /tmp es un directorio en disco regular.
+* Si usted tiene tmpfs montado en /tmp, asegurese de tener sugficiente
+  memoria RAM ya que los Scripts almacenaran datos allí.Si usted tiene
+  poca RAM, asegurese de que /tmp es un directorio en disco regular.
  
 * Cuando termine, ejecute ./build script para construir Rexos
-	- Se crearan la ISO y los archivos TAR para usted en /tmp
+	- Se  crearan la ISO y los archivos TAR para usted en /tmp
 	- Asegurese de que usted tiene suficiente espacion en /tmp
 
-Author: Erick M.C. <http://rexos-es.blogspot.mx>
+Autor: Erick M.C. <http://rexos-es.blogspot.mx>
